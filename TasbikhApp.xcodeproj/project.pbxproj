@@ -16,6 +16,7 @@
 		E00ED2322BDFB8EF00D1DBAA /* TasbikhAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00ED2312BDFB8EF00D1DBAA /* TasbikhAppTests.swift */; };
 		E00ED23C2BDFB8EF00D1DBAA /* TasbikhAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00ED23B2BDFB8EF00D1DBAA /* TasbikhAppUITests.swift */; };
 		E00ED23E2BDFB8EF00D1DBAA /* TasbikhAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00ED23D2BDFB8EF00D1DBAA /* TasbikhAppUITestsLaunchTests.swift */; };
+		E00ED24F2BDFBA8100D1DBAA /* MainTasbikhView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00ED24E2BDFBA8100D1DBAA /* MainTasbikhView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		E00ED2372BDFB8EF00D1DBAA /* TasbikhAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TasbikhAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E00ED23B2BDFB8EF00D1DBAA /* TasbikhAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasbikhAppUITests.swift; sourceTree = "<group>"; };
 		E00ED23D2BDFB8EF00D1DBAA /* TasbikhAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasbikhAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E00ED24E2BDFBA8100D1DBAA /* MainTasbikhView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTasbikhView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +101,11 @@
 		E00ED2192BDFB8ED00D1DBAA /* TasbikhApp */ = {
 			isa = PBXGroup;
 			children = (
-				E00ED21A2BDFB8ED00D1DBAA /* AppDelegate.swift */,
-				E00ED21C2BDFB8ED00D1DBAA /* SceneDelegate.swift */,
-				E00ED21E2BDFB8ED00D1DBAA /* ViewController.swift */,
-				E00ED2202BDFB8ED00D1DBAA /* Main.storyboard */,
-				E00ED2232BDFB8EF00D1DBAA /* Assets.xcassets */,
-				E00ED2252BDFB8EF00D1DBAA /* LaunchScreen.storyboard */,
 				E00ED2282BDFB8EF00D1DBAA /* Info.plist */,
+				E00ED24A2BDFB8FA00D1DBAA /* app */,
+				E00ED24C2BDFB95500D1DBAA /* Extensions */,
+				E00ED24B2BDFB93600D1DBAA /* ViewCOntroller */,
+				E00ED24D2BDFBA6000D1DBAA /* Views */,
 			);
 			path = TasbikhApp;
 			sourceTree = "<group>";
@@ -125,6 +125,41 @@
 				E00ED23D2BDFB8EF00D1DBAA /* TasbikhAppUITestsLaunchTests.swift */,
 			);
 			path = TasbikhAppUITests;
+			sourceTree = "<group>";
+		};
+		E00ED24A2BDFB8FA00D1DBAA /* app */ = {
+			isa = PBXGroup;
+			children = (
+				E00ED21C2BDFB8ED00D1DBAA /* SceneDelegate.swift */,
+				E00ED2252BDFB8EF00D1DBAA /* LaunchScreen.storyboard */,
+				E00ED2232BDFB8EF00D1DBAA /* Assets.xcassets */,
+				E00ED2202BDFB8ED00D1DBAA /* Main.storyboard */,
+				E00ED21A2BDFB8ED00D1DBAA /* AppDelegate.swift */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		E00ED24B2BDFB93600D1DBAA /* ViewCOntroller */ = {
+			isa = PBXGroup;
+			children = (
+				E00ED21E2BDFB8ED00D1DBAA /* ViewController.swift */,
+			);
+			path = ViewCOntroller;
+			sourceTree = "<group>";
+		};
+		E00ED24C2BDFB95500D1DBAA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E00ED24D2BDFBA6000D1DBAA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E00ED24E2BDFBA8100D1DBAA /* MainTasbikhView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +295,7 @@
 			files = (
 				E00ED21F2BDFB8ED00D1DBAA /* ViewController.swift in Sources */,
 				E00ED21B2BDFB8ED00D1DBAA /* AppDelegate.swift in Sources */,
+				E00ED24F2BDFBA8100D1DBAA /* MainTasbikhView.swift in Sources */,
 				E00ED21D2BDFB8ED00D1DBAA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
